@@ -102,6 +102,18 @@ footer {
   text-align: center;
 }
 
+.banner3 {
+  width: 700px;
+  height: 300px;
+  color: white;
+  background: linear-gradient(-225deg, rgba(30,30,30,0.2) 30%, rgba(46,46,46,0.1) 80%), 
+  url("images/scuba3.jpg");
+  background-size: cover;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
 .banner2 {
   width: 700px;
   height: 300px;
