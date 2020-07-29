@@ -1,0 +1,91 @@
+body {
+  background-color: #BEE4F7;
+  font-family: ;
+  color: #f4f6ff;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+
+h1 {
+  color: #f4f6ff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30;
+}
+h2, h3 {
+  color: #f4f6ff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20;
+  line-height: ;
+}
+
+a {
+  color: #bbe1fa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bbe1fa;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #2B649F;
+    border: 50px;
+    border-color: white;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 50px;
+    margin: 20px auto;
+    width: 700px;
+    text-align: center;
+    display: block;
+}
+
+.pic {
+    width: 200px;
+    border-radius: 2px;
+    display: inline-block
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #f4f6ff;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid (50,50,50);
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 12;
+    color: #0f4c75;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.banner {
+  width: 700px;
+  height: 300px;
+  color: white;
+  background: linear-gradient(-225deg, rgba(30,30,30,0.2) 30%, rgba(46,46,46,0.1) 80%), 
+  url("images/scuba.jpg");
+  background-size: cover;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
