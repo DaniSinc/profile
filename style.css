@@ -15,10 +15,9 @@ h1 {
   font-size: 30;
 }
 h2, h3 {
-  color: #f4f6ff;
+  color: black;
   font-family: 'Lato', sans-serif;
   font-size: 20;
-  line-height: ;
 }
 
 a {
@@ -30,76 +29,10 @@ a:hover {
   color: #bbe1fa;
 }
 
-/* div {
-    display: block;
-}
+p {
+  color: black;
 
-.container {
-    width: 800px;
-    margin: 0 auto;
 }
-
-.card {
-    background: #2B649F;
-    border: 50px;
-    border-color: white;
-    border-radius: 2px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    padding: 50px;
-    margin: 20px auto;
-    width: 700px;
-    text-align: center;
-    display: block;
-}
-
-.pic {
-    width: 200px;
-    border-radius: 2px;
-    display: inline-block
-}
-
-.list-inline > li {
-    display: inline-block;
-    padding: 0px 20px;
-    list-style: none;
-    padding-left: 0px;
-}
-
-.btn {
-    display: inline-block;
-    background-color: #f4f6ff;
-    padding: 0.35em 1.2em;
-    border: 0.1em solid (50,50,50);
-    margin: 0 0.3em 0.3em 0;
-    border-radius: 2px;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-size: 12;
-    color: #0f4c75;
-    text-align: center;
-    transition: all 0.2s;
-}
-
-.banner {
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0;
-}
-
-.banner h1 {
-  margin: 0;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
-  font-weight: bold;
-}
-
-.banner p {
-  font-size: 20px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-} */
 
 /* header styling  */
 
@@ -184,3 +117,50 @@ header .overlay {
       width: 0;
     }
   }
+
+/* section styling  */
+
+.section {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#profile {
+  margin: 20px auto;
+  border-radius: 1px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#profile p {
+  margin-bottom: 0 !important;
+}
+  
+/* cards styling  */
+
+.section h2 {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 20;
+  padding: 20px 0;
+}
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.project {
+  border-radius: 1px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.portrait img {
+  height: 300px;
+  width: 185px;
+  left: 0;
+}
