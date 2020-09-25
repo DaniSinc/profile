@@ -17,7 +17,8 @@ h1 {
 h2, h3 {
   color: black;
   font-family: 'Lato', sans-serif;
-  font-size: 20;
+  font-size: 24;
+  font-weight: bold;
 }
 
 a {
@@ -32,6 +33,17 @@ a:hover {
 p {
   color: black;
 
+}
+
+li i {
+  font-size: 30px;
+  color: black;
+}
+
+li a{
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
 }
 
 /* header styling  */
@@ -117,38 +129,54 @@ header .overlay {
       width: 0;
     }
   }
-
-/* section styling  */
-
-.section {
-  width: 800px;
-  margin: 0 auto;
-}
-
-#profile {
-  margin: 20px auto;
+  
+  /* section styling  */
+  
+  .section {
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  /* #profile {
+  margin: 20px auto 0 auto;
   border-radius: 1px;
   padding: 10px;
   background-color: white;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+.section p {
+  margin-bottom: 0 !important;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
 }
 
-#profile p {
-  margin-bottom: 0 !important;
+/* skills styling  */
+.skills {
+  height: auto;
+  text-align: left;
+  background: linear-gradient(to right, #cee8e0 0%, #cee8e0 50%, #f2d6b5 50%, #f2d6b5 100%);
+  padding-top: 20px;
 }
-  
+
+.skills-container {
+  width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.end {
+  padding: 0 30px;
+}
+
 /* cards styling  */
 
-.section h2 {
-  color: black;
-  font-family: 'Lato', sans-serif;
-  font-size: 20;
-  padding: 20px 0;
-}
 .projects {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 10px;
+  grid-gap: 25px;
 }
 
 .project {
@@ -163,4 +191,10 @@ header .overlay {
   height: 300px;
   width: 185px;
   left: 0;
+}
+
+/* cards styling  */
+
+.socials {
+  display: inline;
 }
