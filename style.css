@@ -32,6 +32,18 @@ div {
     display: block;
 }
 
+footer {
+  background-color: #4A9CBE;
+  text-align: center;
+  border: 2px, solid, black;
+  border-radius: 2px;
+  padding: 50px 0 50px 0px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-top: 20px;
+  color: #bbe1fa;
+}
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -78,12 +90,36 @@ div {
     transition: all 0.2s;
 }
 
-.banner {
+.banner1 {
   width: 700px;
   height: 300px;
   color: white;
   background: linear-gradient(-225deg, rgba(30,30,30,0.2) 30%, rgba(46,46,46,0.1) 80%), 
   url("images/scuba.jpg");
+  background-size: cover;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.banner3 {
+  width: 700px;
+  height: 300px;
+  color: white;
+  background: linear-gradient(-225deg, rgba(30,30,30,0.2) 30%, rgba(46,46,46,0.1) 80%), 
+  url("images/scuba3.jpg");
+  background-size: cover;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.banner2 {
+  width: 700px;
+  height: 300px;
+  color: white;
+  background: linear-gradient(-225deg, rgba(30,30,30,0.2) 30%, rgba(46,46,46,0.1) 80%), 
+  url("images/Scuba2.jpg");
   background-size: cover;
   justify-content: space-around;
   align-items: center;
