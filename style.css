@@ -34,6 +34,18 @@ a:hover {
     display: block;
 }
 
+footer {
+  background-color: #4A9CBE;
+  text-align: center;
+  border: 2px, solid, black;
+  border-radius: 2px;
+  padding: 50px 0 50px 0px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-top: 20px;
+  color: #bbe1fa;
+}
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
