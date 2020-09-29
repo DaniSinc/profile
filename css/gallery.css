@@ -1,3 +1,13 @@
+
+
+.unframed-image {
+    width: 386px;
+    height: 206px;
+    position: absolute;
+    top: 39px;
+    left: 74px;
+}
+
 .gallery {
   width: 90%;
   margin: 0 auto;
@@ -7,6 +17,9 @@
   width: 45rem;
   height: 30rem;
   margin: 0 auto;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 ​
 .gallery__main img {
