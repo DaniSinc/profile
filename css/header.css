@@ -1,46 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
 
-
 /* header styling  */
 
 header {
   position: relative;
-  background-color: black;
-  height: 75vh;
-  min-height: 25rem;
-  width: 100%;
-  overflow: hidden;
 }
 
-header video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
+header img {
   height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+  width: 100vw;
 }
 
-header .container {
-  position: relative;
-  z-index: 2;
+header h1 {
+  color: white;
 }
 
-header .overlay {
+.header-text {
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.1;
-  z-index: 1;
+  top: 20%;
+  left: 5%;
+  text-align: left;
 }
 
 .typewriter {
@@ -84,4 +63,3 @@ header .overlay {
       width: 0;
     }
   }
-  
